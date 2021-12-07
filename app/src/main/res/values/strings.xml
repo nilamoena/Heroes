@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MarvelApp</string>
+    <string name="hello">Hello !</string>
+    <string name="intro">Get to know about your favorite Marvel characters, super heroes, and villains, also another information such as series, events and comics here</string>
+    <string name="characters">Characters</string>
+    <string name="comics">Comics</string>
+    <string name="events">Events</string>
+    <string name="series">Series</string>
+</resources>
