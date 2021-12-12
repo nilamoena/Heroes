@@ -6,8 +6,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import com.bumptech.glide.Glide
 import com.nilatilmoena.marvelapp.R
-import com.nilatilmoena.marvelapp.api.marvel
+import com.nilatilmoena.marvelapp.api.CharactersAPI
 import com.nilatilmoena.marvelapp.models.characters.Characters
 import retrofit2.Call
 import retrofit2.Callback
@@ -18,7 +19,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 class CharactersActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var ivIntentBackChar : ImageView
 
-    lateinit var MarvelAPI : marvel
+    lateinit var MarvelAPI : CharactersAPI
     private var BASE_URL = "https://gateway.marvel.com/"
 
     lateinit var tvCharResponse : TextView
@@ -41,6 +42,33 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
     lateinit var tvCharResponse18 : TextView
     lateinit var tvCharResponse19 : TextView
     lateinit var tvCharResponse20 : TextView
+
+    lateinit var ivCharResponse : ImageView
+    private val charImg = "https://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784/standard_medium.jpg"
+    lateinit var ivCharResponse2 : ImageView
+    private val charImg2 = "https://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16/standard_medium.jpg"
+    lateinit var ivCharResponse3 : ImageView
+    private val charImg3 = "https://i.annihil.us/u/prod/marvel/i/mg/6/20/52602f21f29ec/standard_medium.jpg"
+    lateinit var ivCharResponse5 : ImageView
+    private val charImg5 = "https://i.annihil.us/u/prod/marvel/i/mg/9/50/4ce18691cbf04/standard_medium.jpg"
+    lateinit var ivCharResponse7 : ImageView
+    private val charImg7 = "https://i.annihil.us/u/prod/marvel/i/mg/1/b0/5269678709fb7/standard_medium.jpg"
+    lateinit var ivCharResponse8 : ImageView
+    private val charImg8 = "https://i.annihil.us/u/prod/marvel/i/mg/9/30/535feab462a64/standard_medium.jpg"
+    lateinit var ivCharResponse9 : ImageView
+    private val charImg9 = "https://i.annihil.us/u/prod/marvel/i/mg/3/80/4c00358ec7548/standard_medium.jpg"
+    lateinit var ivCharResponse11 : ImageView
+    private val charImg11 = "https://i.annihil.us/u/prod/marvel/i/mg/a/f0/5202887448860/standard_medium.jpg"
+    lateinit var ivCharResponse12 : ImageView
+    private val charImg12 = "https://i.annihil.us/u/prod/marvel/i/mg/5/e0/4c0035c9c425d/standard_medium.gif"
+    lateinit var ivCharResponse14 : ImageView
+    private val charImg14 = "https://i.annihil.us/u/prod/marvel/i/mg/c/a0/4ce5a9bf70e19/standard_medium.jpg"
+    lateinit var ivCharResponse15 : ImageView
+    private val charImg15 = "https://i.annihil.us/u/prod/marvel/i/mg/4/60/52695285d6e7e/standard_medium.jpg"
+    lateinit var ivCharResponse17 : ImageView
+    private val charImg17 = "https://i.annihil.us/u/prod/marvel/i/mg/f/60/4c0042121d790/standard_medium.jpg"
+    lateinit var ivCharResponse18 : ImageView
+    private val charImg18 = "https://i.annihil.us/u/prod/marvel/i/mg/9/a0/4ce18a834b7f5/standard_medium.jpg"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -70,14 +98,108 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
         tvCharResponse19 = findViewById(R.id.tvCharacter19)
         tvCharResponse20 = findViewById(R.id.tvCharacter20)
 
+        ivCharResponse = findViewById(R.id.ivCharacter1)
+        ivCharResponse2 = findViewById(R.id.ivCharacter2)
+        ivCharResponse3 = findViewById(R.id.ivCharacter3)
+        ivCharResponse5 = findViewById(R.id.ivCharacter5)
+        ivCharResponse7 = findViewById(R.id.ivCharacter7)
+        ivCharResponse8 = findViewById(R.id.ivCharacter8)
+        ivCharResponse9 = findViewById(R.id.ivCharacter9)
+        ivCharResponse11= findViewById(R.id.ivCharacter11)
+        ivCharResponse12 = findViewById(R.id.ivCharacter12)
+        ivCharResponse14 = findViewById(R.id.ivCharacter14)
+        ivCharResponse15 = findViewById(R.id.ivCharacter15)
+        ivCharResponse17 = findViewById(R.id.ivCharacter17)
+        ivCharResponse18 = findViewById(R.id.ivCharacter18)
+
+        // Retrofit
         var retrofit: Retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
-        MarvelAPI = retrofit.create(marvel::class.java)
+        MarvelAPI = retrofit.create(CharactersAPI::class.java)
 
         getCharacters()
+
+        // Glide
+        Glide.with(this)
+            .load(charImg)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse)
+
+        Glide.with(this)
+            .load(charImg2)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse2)
+
+        Glide.with(this)
+            .load(charImg3)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse3)
+
+        Glide.with(this)
+            .load(charImg5)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse5)
+
+        Glide.with(this)
+            .load(charImg7)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse7)
+
+        Glide.with(this)
+            .load(charImg8)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse8)
+
+        Glide.with(this)
+            .load(charImg9)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse9)
+
+        Glide.with(this)
+            .load(charImg11)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse11)
+
+        Glide.with(this)
+            .load(charImg12)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse12)
+
+        Glide.with(this)
+            .load(charImg14)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse14)
+
+        Glide.with(this)
+            .load(charImg15)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse15)
+
+        Glide.with(this)
+            .load(charImg17)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse17)
+
+        Glide.with(this)
+            .load(charImg18)
+            .fitCenter()
+            .circleCrop()
+            .into(ivCharResponse18)
     }
 
     override fun onClick(v: View) {
@@ -95,104 +217,26 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
         call.enqueue(object: Callback<Characters> {
             override fun onResponse(call: Call<Characters>, response: Response<Characters>) {
                 if (response.body() != null) {
-                    var charContent1 = ""
-                    charContent1 += response.body()!!.data.results[0].name
-                    tvCharResponse.setText((charContent1))
-                }
-                if (response.body() != null) {
-                    var charContent2 = ""
-                    charContent2 += response.body()!!.data.results[1].name
-                    tvCharResponse2.setText((charContent2))
-                }
-                if (response.body() != null) {
-                    var charContent3 = ""
-                    charContent3 += response.body()!!.data.results[2].name
-                    tvCharResponse3.setText((charContent3))
-                }
-                if (response.body() != null) {
-                    var charContent4 = ""
-                    charContent4 += response.body()!!.data.results[3].name
-                    tvCharResponse4.setText((charContent4))
-                }
-                if (response.body() != null) {
-                    var charContent5 = ""
-                    charContent5 += response.body()!!.data.results[4].name
-                    tvCharResponse5.setText((charContent5))
-                }
-                if (response.body() != null) {
-                    var charContent6 = ""
-                    charContent6 += response.body()!!.data.results[5].name
-                    tvCharResponse6.setText((charContent6))
-                }
-                if (response.body() != null) {
-                    var charContent7 = ""
-                    charContent7 += response.body()!!.data.results[6].name
-                    tvCharResponse7.setText((charContent7))
-                }
-                if (response.body() != null) {
-                    var charContent8 = ""
-                    charContent8 += response.body()!!.data.results[7].name
-                    tvCharResponse8.setText((charContent8))
-                }
-                if (response.body() != null) {
-                    var charContent9 = ""
-                    charContent9 += response.body()!!.data.results[8].name
-                    tvCharResponse9.setText((charContent9))
-                }
-                if (response.body() != null) {
-                    var charContent10 = ""
-                    charContent10 += response.body()!!.data.results[9].name
-                    tvCharResponse10.setText((charContent10))
-                }
-                if (response.body() != null) {
-                    var charContent11 = ""
-                    charContent11 += response.body()!!.data.results[10].name
-                    tvCharResponse11.setText((charContent11))
-                }
-                if (response.body() != null) {
-                    var charContent12 = ""
-                    charContent12 += response.body()!!.data.results[11].name
-                    tvCharResponse12.setText((charContent12))
-                }
-                if (response.body() != null) {
-                    var charContent13 = ""
-                    charContent13 += response.body()!!.data.results[12].name
-                    tvCharResponse13.setText((charContent13))
-                }
-                if (response.body() != null) {
-                    var charContent14 = ""
-                    charContent14 += response.body()!!.data.results[13].name
-                    tvCharResponse14.setText((charContent14))
-                }
-                if (response.body() != null) {
-                    var charContent15 = ""
-                    charContent15 += response.body()!!.data.results[14].name
-                    tvCharResponse15.setText((charContent15))
-                }
-                if (response.body() != null) {
-                    var charContent16 = ""
-                    charContent16 += response.body()!!.data.results[15].name
-                    tvCharResponse16.setText((charContent16))
-                }
-                if (response.body() != null) {
-                    var charContent17 = ""
-                    charContent17 += response.body()!!.data.results[16].name
-                    tvCharResponse17.setText((charContent17))
-                }
-                if (response.body() != null) {
-                    var charContent18 = ""
-                    charContent18 += response.body()!!.data.results[17].name
-                    tvCharResponse18.setText((charContent18))
-                }
-                if (response.body() != null) {
-                    var charContent19 = ""
-                    charContent19 += response.body()!!.data.results[18].name
-                    tvCharResponse19.setText((charContent19))
-                }
-                if (response.body() != null) {
-                    var charContent20 = ""
-                    charContent20 += response.body()!!.data.results[19].name
-                    tvCharResponse20.setText((charContent20))
+                    tvCharResponse.text = response.body()!!.data.results[0].name
+                    tvCharResponse2.text = response.body()!!.data.results[1].name
+                    tvCharResponse3.text = response.body()!!.data.results[2].name
+                    tvCharResponse4.text = response.body()!!.data.results[3].name
+                    tvCharResponse5.text = response.body()!!.data.results[4].name
+                    tvCharResponse6.text = response.body()!!.data.results[5].name
+                    tvCharResponse7.text = response.body()!!.data.results[6].name
+                    tvCharResponse8.text = response.body()!!.data.results[7].name
+                    tvCharResponse9.text = response.body()!!.data.results[8].name
+                    tvCharResponse10.text = response.body()!!.data.results[9].name
+                    tvCharResponse11.text = response.body()!!.data.results[10].name
+                    tvCharResponse12.text = response.body()!!.data.results[11].name
+                    tvCharResponse13.text = response.body()!!.data.results[12].name
+                    tvCharResponse14.text = response.body()!!.data.results[13].name
+                    tvCharResponse15.text = response.body()!!.data.results[14].name
+                    tvCharResponse16.text = response.body()!!.data.results[15].name
+                    tvCharResponse17.text = response.body()!!.data.results[16].name
+                    tvCharResponse18.text = response.body()!!.data.results[17].name
+                    tvCharResponse19.text = response.body()!!.data.results[18].name
+                    tvCharResponse20.text = response.body()!!.data.results[19].name
                 }
             }
 
@@ -202,5 +246,4 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
 
         })
     }
-
 }

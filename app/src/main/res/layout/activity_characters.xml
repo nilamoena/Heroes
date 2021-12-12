@@ -20,7 +20,10 @@
                 android:id="@+id/btnBackChar"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/ic_baseline_arrow_back_24"/>
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"/>
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -36,7 +39,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
@@ -81,7 +84,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -103,8 +108,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -123,7 +128,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -145,8 +152,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium" />
                     </LinearLayout>
@@ -165,7 +172,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -187,8 +196,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -207,7 +216,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -229,8 +240,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -249,7 +260,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -271,8 +284,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -291,7 +304,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -313,8 +328,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -333,7 +348,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -355,8 +372,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -375,7 +392,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -397,8 +416,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -417,7 +436,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -439,8 +460,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -459,7 +480,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -481,8 +504,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -501,7 +524,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -523,8 +548,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -543,7 +568,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -565,8 +592,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -585,7 +612,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -607,8 +636,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -627,7 +656,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -649,8 +680,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -669,7 +700,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -691,8 +724,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -711,7 +744,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -733,8 +768,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -753,7 +788,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -775,8 +812,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -795,7 +832,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -817,8 +856,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -837,7 +876,9 @@
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -859,8 +900,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
@@ -880,7 +921,9 @@
                     android:layout_marginRight="16dp"
                     android:layout_marginBottom="16dp"
                     app:cardCornerRadius="8dp"
-                    app:cardElevation="5dp">
+                    app:cardElevation="5dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -902,8 +945,8 @@
                             android:textSize="18sp"
                             android:textColor="@color/black"
                             android:textStyle="bold"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
                             android:layout_gravity="center"
                             android:fontFamily="@font/montserrat_medium"/>
                     </LinearLayout>
