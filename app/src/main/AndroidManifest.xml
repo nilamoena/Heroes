@@ -13,6 +13,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MarvelApp">
         <activity
+            android:name=".ui.details.Series.Series4"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Series.Series3"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Series.Series2"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Series.Series1"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event5"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event4"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event3"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event2"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event1"
+            android:exported="true" />
+        <activity
             android:name=".ui.details.Comics.Comic3"
             android:exported="true" />
         <activity

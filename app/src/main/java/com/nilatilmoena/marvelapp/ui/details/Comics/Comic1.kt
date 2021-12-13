@@ -27,6 +27,7 @@ class Comic1 : AppCompatActivity(), View.OnClickListener {
     private val comImgDet1 = "https://i.annihil.us/u/prod/marvel/i/mg/9/30/4bc64df4105b9/portrait_incredible.jpg"
     lateinit var tvComResponseComName1 : TextView
     lateinit var tvComResponseComDesc1 : TextView
+    lateinit var tvComResponseAttribution : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +39,7 @@ class Comic1 : AppCompatActivity(), View.OnClickListener {
         ivComResponseDet1 = findViewById(R.id.ivComDet1)
         tvComResponseComName1 = findViewById(R.id.tvComName1)
         tvComResponseComDesc1 = findViewById(R.id.tvComDesc1)
+        tvComResponseAttribution = findViewById(R.id.tvAttribution)
 
         // Retrofit
         var retrofit: Retrofit = Retrofit.Builder()
@@ -73,6 +75,7 @@ class Comic1 : AppCompatActivity(), View.OnClickListener {
                 if (response.body() != null) {
                     tvComResponseComName1.text = response.body()!!.data.results[4].title
                     tvComResponseComDesc1.text = response.body()!!.data.results[4].description
+                    tvComResponseAttribution.text = response.body()!!.attributionText
                 }
             }
 

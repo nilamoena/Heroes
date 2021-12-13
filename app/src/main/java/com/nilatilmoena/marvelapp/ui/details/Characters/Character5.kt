@@ -24,6 +24,7 @@ class Character5 : AppCompatActivity(), View.OnClickListener {
 
     lateinit var tvCharResponseCharName5 : TextView
     lateinit var tvCharResponseCharDesc5 : TextView
+    lateinit var tvCharResponseAttribution : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,6 +35,7 @@ class Character5 : AppCompatActivity(), View.OnClickListener {
 
         tvCharResponseCharName5 = findViewById(R.id.tvCharName5)
         tvCharResponseCharDesc5 = findViewById(R.id.tvCharDesc5)
+        tvCharResponseAttribution = findViewById(R.id.tvAttribution)
 
         // Retrofit
         var retrofit: Retrofit = Retrofit.Builder()
@@ -63,6 +65,7 @@ class Character5 : AppCompatActivity(), View.OnClickListener {
                 if (response.body() != null) {
                     tvCharResponseCharName5.text = response.body()!!.data.results[15].name
                     tvCharResponseCharDesc5.text = response.body()!!.data.results[15].description
+                    tvCharResponseAttribution.text = response.body()!!.attributionText
                 }
             }
 

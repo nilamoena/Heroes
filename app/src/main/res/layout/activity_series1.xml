@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.details.Characters.Character4">
+    tools:context=".ui.details.Series.Series1">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/myToolbar"
@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <ImageView
-                android:id="@+id/btnBackCharDetail"
+                android:id="@+id/btnBackSerDetail"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:src="@drawable/ic_baseline_arrow_back_24"
@@ -34,14 +34,14 @@
     </androidx.appcompat.widget.Toolbar>
 
     <ImageView
-        android:id="@+id/ivCharDet4"
-        android:layout_width="464dp"
-        android:layout_height="261dp"
+        android:id="@+id/ivSerDet1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:layout_gravity="center"
-        android:src="@drawable/categories1"/>
+        android:src="@drawable/categories4"/>
 
     <TextView
-        android:id="@+id/tvCharName4"
+        android:id="@+id/tvSerName1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -49,12 +49,12 @@
         android:layout_marginTop="16dp"
         android:textSize="20sp"
         android:textColor="@color/black"
-        android:text="@string/characters"
+        android:text="@string/series"
         android:fontFamily="@font/montserrat_medium"
         android:textStyle="bold"/>
 
     <TextView
-        android:id="@+id/tvCharDesc4"
+        android:id="@+id/tvSerDesc1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -62,7 +62,7 @@
         android:layout_marginRight="16dp"
         android:textSize="16sp"
         android:textColor="@color/black"
-        android:text="@string/characters_intro"
+        android:text="@string/series_intro"
         android:fontFamily="@font/montserrat_medium"/>
 
     <TextView

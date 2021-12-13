@@ -10,4 +10,5 @@
     <string name="comics_intro">Individual print and digital comic issues, collections and graphic novels.</string>
     <string name="events_intro">Big, universe-altering storylines.</string>
     <string name="series_intro">Sequentially numbered (well, mostly sequentially numbered) groups comics with the same title.</string>
+    <string name="attribution">Attribution</string>
 </resources>

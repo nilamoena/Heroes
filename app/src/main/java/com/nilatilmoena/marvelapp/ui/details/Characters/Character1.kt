@@ -27,6 +27,7 @@ class Character1 : AppCompatActivity(), View.OnClickListener {
     private val charImgDet1 = "https://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16/landscape_incredible.jpg"
     lateinit var tvCharResponseCharName1 : TextView
     lateinit var tvCharResponseCharDesc1 : TextView
+    lateinit var tvCharResponseAttribution : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +39,7 @@ class Character1 : AppCompatActivity(), View.OnClickListener {
         ivCharResponseDet1 = findViewById(R.id.ivCharDet1)
         tvCharResponseCharName1 = findViewById(R.id.tvCharName1)
         tvCharResponseCharDesc1 = findViewById(R.id.tvCharDesc1)
+        tvCharResponseAttribution = findViewById(R.id.tvAttribution)
 
         // Retrofit
         var retrofit: Retrofit = Retrofit.Builder()
@@ -73,6 +75,7 @@ class Character1 : AppCompatActivity(), View.OnClickListener {
                 if (response.body() != null) {
                     tvCharResponseCharName1.text = response.body()!!.data.results[1].name
                     tvCharResponseCharDesc1.text = response.body()!!.data.results[1].description
+                    tvCharResponseAttribution.text = response.body()!!.attributionText
                 }
             }
 

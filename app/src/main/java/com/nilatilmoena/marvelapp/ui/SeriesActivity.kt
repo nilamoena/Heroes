@@ -6,10 +6,16 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
+import androidx.cardview.widget.CardView
 import com.bumptech.glide.Glide
 import com.nilatilmoena.marvelapp.R
 import com.nilatilmoena.marvelapp.api.SeriesAPI
 import com.nilatilmoena.marvelapp.models.series.Series
+import com.nilatilmoena.marvelapp.ui.details.Series.Series1
+import com.nilatilmoena.marvelapp.ui.details.Series.Series2
+import com.nilatilmoena.marvelapp.ui.details.Series.Series3
+import com.nilatilmoena.marvelapp.ui.details.Series.Series4
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -17,11 +23,27 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class SeriesActivity : AppCompatActivity(), View.OnClickListener {
-    private lateinit var ivIntentBackSeries : ImageView
 
     lateinit var MarvelAPI : SeriesAPI
     private var BASE_URL = "https://gateway.marvel.com/"
 
+    // Back Button
+    private lateinit var ivIntentBackSeries : ImageView
+
+    // Inisialisasi CardView
+    private lateinit var cardToast : CardView
+    private lateinit var cardToast2 : CardView
+    private lateinit var cardSatu : CardView
+    private lateinit var cardToast3 : CardView
+    private lateinit var cardToast4 : CardView
+    private lateinit var cardToast5 : CardView
+    private lateinit var cardToast6 : CardView
+    private lateinit var cardToast7 : CardView
+    private lateinit var cardWolv : CardView
+    private lateinit var cardMach : CardView
+    private lateinit var cardRes : CardView
+
+    // Inisialisasi TextView
     lateinit var tvSerResponse : TextView
     lateinit var tvSerResponse2 : TextView
     lateinit var tvSerResponse3 : TextView
@@ -34,36 +56,87 @@ class SeriesActivity : AppCompatActivity(), View.OnClickListener {
     lateinit var tvSerResponse10 : TextView
     lateinit var tvSerResponse11 : TextView
 
+    // Inisialisasi ImageView
     lateinit var ivSerResponse : ImageView
-    private val serImg = "https://i.annihil.us/u/prod/marvel/i/mg/4/b0/5d939e25a9787/portrait_uncanny.jpg"
+    private val serImg = "https://i.annihil.us/u/prod/marvel/i/mg/4/b0/5d939e25a9787/standard_amazing.jpg"
     lateinit var ivSerResponse2 : ImageView
-    private val serImg2 = "https://i.annihil.us/u/prod/marvel/i/mg/1/00/51644d6b47668/portrait_uncanny.jpg"
+    private val serImg2 = "https://i.annihil.us/u/prod/marvel/i/mg/1/00/51644d6b47668/standard_amazing.jpg"
     lateinit var ivSerResponse3 : ImageView
-    private val serImg3 = "https://i.annihil.us/u/prod/marvel/i/mg/9/d0/51926fde9c18a/portrait_uncanny.jpg"
+    private val serImg3 = "https://i.annihil.us/u/prod/marvel/i/mg/9/d0/51926fde9c18a/standard_amazing.jpg"
     lateinit var ivSerResponse4 : ImageView
-    private val serImg4 = "https://i.annihil.us/u/prod/marvel/i/mg/6/60/553a60a66f2f6/portrait_uncanny.jpg"
+    private val serImg4 = "https://i.annihil.us/u/prod/marvel/i/mg/6/60/553a60a66f2f6/standard_amazing.jpg"
     lateinit var ivSerResponse5 : ImageView
-    private val serImg5 = "https://i.annihil.us/u/prod/marvel/i/mg/9/40/553a60e7ab48d/portrait_uncanny.jpg"
+    private val serImg5 = "https://i.annihil.us/u/prod/marvel/i/mg/9/40/553a60e7ab48d/standard_amazing.jpg"
     lateinit var ivSerResponse6 : ImageView
-    private val serImg6 = "https://i.annihil.us/u/prod/marvel/i/mg/a/d0/4bb4eafadecaf/portrait_uncanny.jpg"
+    private val serImg6 = "https://i.annihil.us/u/prod/marvel/i/mg/a/d0/4bb4eafadecaf/standard_amazing.jpg"
     lateinit var ivSerResponse7 : ImageView
-    private val serImg7 = "https://i.annihil.us/u/prod/marvel/i/mg/a/90/5f5fc799434fe/portrait_uncanny.jpg"
+    private val serImg7 = "https://i.annihil.us/u/prod/marvel/i/mg/a/90/5f5fc799434fe/standard_amazing.jpg"
     lateinit var ivSerResponse8 : ImageView
-    private val serImg8 = "https://i.annihil.us/u/prod/marvel/i/mg/d/30/5f5fc6f0df496/portrait_uncanny.jpg"
+    private val serImg8 = "https://i.annihil.us/u/prod/marvel/i/mg/d/30/5f5fc6f0df496/standard_amazing.jpg"
     lateinit var ivSerResponse9 : ImageView
-    private val serImg9 = "https://i.annihil.us/u/prod/marvel/i/mg/9/20/5f4037d30efa5/portrait_uncanny.jpg"
+    private val serImg9 = "https://i.annihil.us/u/prod/marvel/i/mg/9/20/5f4037d30efa5/standard_amazing.jpg"
     lateinit var ivSerResponse10 : ImageView
-    private val serImg10 = "https://i.annihil.us/u/prod/marvel/i/mg/5/70/5f5bef0fafd3e/portrait_uncanny.jpg"
+    private val serImg10 = "https://i.annihil.us/u/prod/marvel/i/mg/5/70/5f5bef0fafd3e/standard_amazing.jpg"
     lateinit var ivSerResponse11 : ImageView
-    private val serImg11 = "https://i.annihil.us/u/prod/marvel/i/mg/1/40/5e558a8495066/portrait_uncanny.jpg"
+    private val serImg11 = "https://i.annihil.us/u/prod/marvel/i/mg/1/40/5e558a8495066/standard_amazing.jpg"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_series)
 
+        // Back Button
         ivIntentBackSeries = findViewById(R.id.btnBackSeries)
         ivIntentBackSeries.setOnClickListener(this)
 
+        // CardView
+        cardToast = findViewById(R.id.cvSerie1)
+        cardToast.setOnClickListener {
+            Toast.makeText(this, "There's no information about this series", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast2 = findViewById(R.id.cvSerie2)
+        cardToast2.setOnClickListener {
+            Toast.makeText(this, "There's no information about this series", Toast.LENGTH_SHORT).show()
+        }
+
+        cardSatu = findViewById(R.id.cvSerie3)
+        cardSatu.setOnClickListener(this)
+
+        cardToast3 = findViewById(R.id.cvSerie4)
+        cardToast3.setOnClickListener {
+            Toast.makeText(this, "There's no information about this series", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast4 = findViewById(R.id.cvSerie5)
+        cardToast4.setOnClickListener {
+            Toast.makeText(this, "There's no information about this series", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast5 = findViewById(R.id.cvSerie6)
+        cardToast5.setOnClickListener {
+            Toast.makeText(this, "There's no information about this series", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast6 = findViewById(R.id.cvSerie7)
+        cardToast6.setOnClickListener {
+            Toast.makeText(this, "There's no information about this series", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast7 = findViewById(R.id.cvSerie8)
+        cardToast7.setOnClickListener {
+            Toast.makeText(this, "There's no information about this series", Toast.LENGTH_SHORT).show()
+        }
+
+        cardWolv = findViewById(R.id.cvSerie9)
+        cardWolv.setOnClickListener(this)
+
+        cardMach = findViewById(R.id.cvSerie10)
+        cardMach.setOnClickListener(this)
+
+        cardRes = findViewById(R.id.cvSerie11)
+        cardRes.setOnClickListener(this)
+
+        // TextView
         tvSerResponse = findViewById(R.id.tvSerie1)
         tvSerResponse2 = findViewById(R.id.tvSerie2)
         tvSerResponse3 = findViewById(R.id.tvSerie3)
@@ -76,6 +149,7 @@ class SeriesActivity : AppCompatActivity(), View.OnClickListener {
         tvSerResponse10 = findViewById(R.id.tvSerie10)
         tvSerResponse11 = findViewById(R.id.tvSerie11)
 
+        // ImageView
         ivSerResponse = findViewById(R.id.ivSerie1)
         ivSerResponse2 = findViewById(R.id.ivSerie2)
         ivSerResponse3 = findViewById(R.id.ivSerie3)
@@ -160,6 +234,22 @@ class SeriesActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btnBackSeries -> {
                 val intentBackSeries = Intent(this@SeriesActivity, MainActivity::class.java)
                 startActivity(intentBackSeries)
+            }
+            R.id.cvSerie3 -> {
+                val intentCardSatu = Intent(this@SeriesActivity, Series1::class.java)
+                startActivity(intentCardSatu)
+            }
+            R.id.cvSerie9 -> {
+                val intentCardWolv = Intent(this@SeriesActivity, Series2::class.java)
+                startActivity(intentCardWolv)
+            }
+            R.id.cvSerie10 -> {
+                val intentCardMach = Intent(this@SeriesActivity, Series3::class.java)
+                startActivity(intentCardMach)
+            }
+            R.id.cvSerie11 -> {
+                val intentCardRes = Intent(this@SeriesActivity, Series4::class.java)
+                startActivity(intentCardRes)
             }
         }
     }

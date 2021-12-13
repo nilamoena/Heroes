@@ -67,7 +67,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
                 android:rowCount="20">
 
                 <androidx.cardview.widget.CardView
@@ -95,7 +94,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent1"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -139,7 +138,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent2"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -183,7 +182,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent3"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -227,7 +226,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent4"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -271,7 +270,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent5"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -315,7 +314,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent6"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -359,7 +358,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent7"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -403,7 +402,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent8"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -447,7 +446,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent9"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -491,7 +490,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent10"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -535,7 +534,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent11"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -579,7 +578,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent12"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -623,7 +622,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent13"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -667,7 +666,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent14"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -711,7 +710,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent15"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -755,7 +754,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent16"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -799,7 +798,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent17"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -843,7 +842,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent18"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -887,7 +886,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent19"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -932,7 +931,7 @@
                         android:layout_gravity="center_vertical|center_horizontal">
                         <ImageView
                             android:id="@+id/ivEvent20"
-                            android:layout_width="120dp"
+                            android:layout_width="140dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="10dp"
                             android:src="@drawable/categories3"/>
@@ -952,6 +951,19 @@
                 </androidx.cardview.widget.CardView>
 
             </GridLayout>
+
+            <TextView
+                android:id="@+id/tvAttribution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text="@string/attribution"
+                android:fontFamily="@font/montserrat_medium"/>
 
         </LinearLayout>
 
