@@ -6,10 +6,13 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
+import androidx.cardview.widget.CardView
 import com.bumptech.glide.Glide
 import com.nilatilmoena.marvelapp.R
 import com.nilatilmoena.marvelapp.api.CharactersAPI
 import com.nilatilmoena.marvelapp.models.characters.Characters
+import com.nilatilmoena.marvelapp.ui.details.Characters.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -17,11 +20,36 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class CharactersActivity : AppCompatActivity(), View.OnClickListener {
-    private lateinit var ivIntentBackChar : ImageView
 
     lateinit var MarvelAPI : CharactersAPI
     private var BASE_URL = "https://gateway.marvel.com/"
 
+    // Back Button
+    private lateinit var ivIntentBackChar : ImageView
+
+    // Inisialisasi CardView
+    private lateinit var cardToast : CardView
+    private lateinit var cardBomb : CardView
+    private lateinit var cardAim : CardView
+    private lateinit var cardToast2 : CardView
+    private lateinit var cardEmil : CardView
+    private lateinit var cardToast3 : CardView
+    private lateinit var cardToast4 : CardView
+    private lateinit var cardToast5 : CardView
+    private lateinit var cardToast6 : CardView
+    private lateinit var cardToast7 : CardView
+    private lateinit var cardWarlock : CardView
+    private lateinit var cardToast8 : CardView
+    private lateinit var cardToast9 : CardView
+    private lateinit var cardToast10 : CardView
+    private lateinit var cardToast11 : CardView
+    private lateinit var cardNijo : CardView
+    private lateinit var cardToast12 : CardView
+    private lateinit var cardToast13 : CardView
+    private lateinit var cardToast14 : CardView
+    private lateinit var cardToast15 : CardView
+
+    // Inisialisasi TextView
     lateinit var tvCharResponse : TextView
     lateinit var tvCharResponse2 : TextView
     lateinit var tvCharResponse3 : TextView
@@ -43,6 +71,7 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
     lateinit var tvCharResponse19 : TextView
     lateinit var tvCharResponse20 : TextView
 
+    // Inisialisasi ImageView
     lateinit var ivCharResponse : ImageView
     private val charImg = "https://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784/standard_medium.jpg"
     lateinit var ivCharResponse2 : ImageView
@@ -74,9 +103,102 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_characters)
 
+        // Back Button
         ivIntentBackChar = findViewById(R.id.btnBackChar)
         ivIntentBackChar.setOnClickListener(this)
 
+        // CardView
+        cardToast = findViewById(R.id.cvCharacter1)
+        cardToast.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardBomb = findViewById(R.id.cvCharacter2)
+        cardBomb.setOnClickListener(this)
+
+        cardAim = findViewById(R.id.cvCharacter3)
+        cardAim.setOnClickListener(this)
+
+        cardToast2 = findViewById(R.id.cvCharacter4)
+        cardToast2.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardEmil = findViewById(R.id.cvCharacter5)
+        cardEmil.setOnClickListener(this)
+
+        cardToast3 = findViewById(R.id.cvCharacter6)
+        cardToast3.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast4 = findViewById(R.id.cvCharacter7)
+        cardToast4.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast5 = findViewById(R.id.cvCharacter8)
+        cardToast5.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast6 = findViewById(R.id.cvCharacter9)
+        cardToast6.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast7 = findViewById(R.id.cvCharacter10)
+        cardToast7.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardWarlock = findViewById(R.id.cvCharacter11)
+        cardWarlock.setOnClickListener(this)
+
+        cardToast8 = findViewById(R.id.cvCharacter12)
+        cardToast8.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast9 = findViewById(R.id.cvCharacter13)
+        cardToast9.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast10 = findViewById(R.id.cvCharacter14)
+        cardToast10.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast11 = findViewById(R.id.cvCharacter15)
+        cardToast11.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardNijo = findViewById(R.id.cvCharacter16)
+        cardNijo.setOnClickListener(this)
+
+        cardToast12 = findViewById(R.id.cvCharacter17)
+        cardToast12.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast13 = findViewById(R.id.cvCharacter18)
+        cardToast13.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast14 = findViewById(R.id.cvCharacter19)
+        cardToast14.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast15 = findViewById(R.id.cvCharacter20)
+        cardToast15.setOnClickListener {
+            Toast.makeText(this, "There's no information about this character", Toast.LENGTH_SHORT).show()
+        }
+
+        // TextView
         tvCharResponse = findViewById(R.id.tvCharacter1)
         tvCharResponse2 = findViewById(R.id.tvCharacter2)
         tvCharResponse3 = findViewById(R.id.tvCharacter3)
@@ -98,6 +220,7 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
         tvCharResponse19 = findViewById(R.id.tvCharacter19)
         tvCharResponse20 = findViewById(R.id.tvCharacter20)
 
+        // ImageView
         ivCharResponse = findViewById(R.id.ivCharacter1)
         ivCharResponse2 = findViewById(R.id.ivCharacter2)
         ivCharResponse3 = findViewById(R.id.ivCharacter3)
@@ -207,6 +330,26 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btnBackChar -> {
                 val intentBackChar = Intent(this@CharactersActivity, MainActivity::class.java)
                 startActivity(intentBackChar)
+            }
+            R.id.cvCharacter2 -> {
+                val intentCardBomb = Intent(this@CharactersActivity, Character1::class.java)
+                startActivity(intentCardBomb)
+            }
+            R.id.cvCharacter3 -> {
+                val intentCardAim = Intent(this@CharactersActivity, Character2::class.java)
+                startActivity(intentCardAim)
+            }
+            R.id.cvCharacter5 -> {
+                val intentCardEmil = Intent(this@CharactersActivity, Character3::class.java)
+                startActivity(intentCardEmil)
+            }
+            R.id.cvCharacter11 -> {
+                val intentCardWarlock = Intent(this@CharactersActivity, Character4::class.java)
+                startActivity(intentCardWarlock)
+            }
+            R.id.cvCharacter16 -> {
+                val intentCardNijo = Intent(this@CharactersActivity, Character5::class.java)
+                startActivity(intentCardNijo)
             }
         }
     }

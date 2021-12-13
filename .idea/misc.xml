@@ -3,13 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.13778501628664494" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13778501628664494" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout-details/activity_char1.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout-details/activity_char2.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_char1.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_char2.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_character1.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_character2.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_character3.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_character4.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_character5.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_characters.xml" value="0.10300668151447662" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_characters2.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_comic1.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_comic2.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_comic3.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_comics.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_events.xml" value="0.12006578947368421" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_series.xml" value="0.12894736842105264" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/char1_activity.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MarvelApp/app/src/main/res/layout/details.xml" value="0.12894736842105264" />
       </map>
     </option>
   </component>

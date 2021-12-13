@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nilatilmoena.marvelapp">
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -12,13 +13,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MarvelApp">
         <activity
-            android:name=".ui.SeriesActivity"
+            android:name=".ui.details.Comics.Comic3"
             android:exported="true" />
         <activity
-            android:name=".ui.EventsActivity"
+            android:name=".ui.details.Comics.Comic2"
             android:exported="true" />
         <activity
-            android:name=".ui.ComicsActivity"
+            android:name=".ui.details.Comics.Comic1"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Characters.Character5"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Characters.Character4"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Characters.Character3"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Characters.Character2"
             android:exported="true" />
         <activity
             android:name=".ui.SplashActivity"
@@ -33,7 +46,19 @@
             android:name=".ui.MainActivity"
             android:exported="true" />
         <activity
+            android:name=".ui.SeriesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.EventsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.ComicsActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.CharactersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Characters.Character1"
             android:exported="true" />
     </application>
 
