@@ -70,6 +70,7 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
     lateinit var tvCharResponse18 : TextView
     lateinit var tvCharResponse19 : TextView
     lateinit var tvCharResponse20 : TextView
+    lateinit var tvCharResponseAttribution : TextView
 
     // Inisialisasi ImageView
     lateinit var ivCharResponse : ImageView
@@ -219,6 +220,7 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
         tvCharResponse18 = findViewById(R.id.tvCharacter18)
         tvCharResponse19 = findViewById(R.id.tvCharacter19)
         tvCharResponse20 = findViewById(R.id.tvCharacter20)
+        tvCharResponseAttribution = findViewById(R.id.tvAttribution)
 
         // ImageView
         ivCharResponse = findViewById(R.id.ivCharacter1)
@@ -380,6 +382,7 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
                     tvCharResponse18.text = response.body()!!.data.results[17].name
                     tvCharResponse19.text = response.body()!!.data.results[18].name
                     tvCharResponse20.text = response.body()!!.data.results[19].name
+                    tvCharResponseAttribution.text = response.body()!!.attributionText
                 }
             }
 

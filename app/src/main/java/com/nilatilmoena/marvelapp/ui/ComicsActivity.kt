@@ -14,7 +14,6 @@ import com.nilatilmoena.marvelapp.api.ComicsAPI
 import com.nilatilmoena.marvelapp.models.comics.Comics
 import com.nilatilmoena.marvelapp.ui.details.Comics.Comic1
 import com.nilatilmoena.marvelapp.ui.details.Comics.Comic2
-import com.nilatilmoena.marvelapp.ui.details.Comics.Comic3
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -31,8 +30,8 @@ class ComicsActivity : AppCompatActivity(), View.OnClickListener {
 
     // Inisialisasi CardView
     private lateinit var cardToast : CardView
+    private lateinit var cardSpider : CardView
     private lateinit var cardToast2 : CardView
-    private lateinit var cardHandbook : CardView
     private lateinit var cardToast3 : CardView
     private lateinit var cardToast4 : CardView
     private lateinit var cardToast5 : CardView
@@ -41,11 +40,11 @@ class ComicsActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var cardToast8 : CardView
     private lateinit var cardToast9 : CardView
     private lateinit var cardToast10 : CardView
-    private lateinit var cardGun : CardView
     private lateinit var cardToast11 : CardView
-    private lateinit var cardXmen : CardView
     private lateinit var cardToast12 : CardView
+    private lateinit var cardXmen : CardView
     private lateinit var cardToast13 : CardView
+    private lateinit var cardToast14 : CardView
 
     // Inisialisasi TextView
     lateinit var tvComResponse : TextView
@@ -64,6 +63,7 @@ class ComicsActivity : AppCompatActivity(), View.OnClickListener {
     lateinit var tvComResponse14 : TextView
     lateinit var tvComResponse15 : TextView
     lateinit var tvComResponse16 : TextView
+    lateinit var tvComResponseAttribution : TextView
 
     // Inisialisasi ImageView
     lateinit var ivComResponse : ImageView
@@ -113,13 +113,13 @@ class ComicsActivity : AppCompatActivity(), View.OnClickListener {
             Toast.makeText(this, "There's no information about this comic", Toast.LENGTH_SHORT).show()
         }
 
-        cardToast2 = findViewById(R.id.cvComic2)
+        cardSpider = findViewById(R.id.cvComic2)
+        cardSpider.setOnClickListener(this)
+
+        cardToast2 = findViewById(R.id.cvComic3)
         cardToast2.setOnClickListener {
             Toast.makeText(this, "There's no information about this comic", Toast.LENGTH_SHORT).show()
         }
-
-        cardHandbook = findViewById(R.id.cvComic3)
-        cardHandbook.setOnClickListener(this)
 
         cardToast3 = findViewById(R.id.cvComic4)
         cardToast3.setOnClickListener {
@@ -161,24 +161,26 @@ class ComicsActivity : AppCompatActivity(), View.OnClickListener {
             Toast.makeText(this, "There's no information about this comic", Toast.LENGTH_SHORT).show()
         }
 
-        cardGun = findViewById(R.id.cvComic12)
-        cardGun.setOnClickListener(this)
-
-        cardToast11 = findViewById(R.id.cvComic13)
+        cardToast11 = findViewById(R.id.cvComic12)
         cardToast11.setOnClickListener {
+            Toast.makeText(this, "There's no information about this comic", Toast.LENGTH_SHORT).show()
+        }
+
+        cardToast12 = findViewById(R.id.cvComic13)
+        cardToast12.setOnClickListener {
             Toast.makeText(this, "There's no information about this comic", Toast.LENGTH_SHORT).show()
         }
 
         cardXmen = findViewById(R.id.cvComic14)
         cardXmen.setOnClickListener(this)
 
-        cardToast12 = findViewById(R.id.cvComic15)
-        cardToast12.setOnClickListener {
+        cardToast13 = findViewById(R.id.cvComic15)
+        cardToast13.setOnClickListener {
             Toast.makeText(this, "There's no information about this comic", Toast.LENGTH_SHORT).show()
         }
 
-        cardToast13 = findViewById(R.id.cvComic16)
-        cardToast13.setOnClickListener {
+        cardToast14 = findViewById(R.id.cvComic16)
+        cardToast14.setOnClickListener {
             Toast.makeText(this, "There's no information about this comic", Toast.LENGTH_SHORT).show()
         }
 
@@ -199,6 +201,7 @@ class ComicsActivity : AppCompatActivity(), View.OnClickListener {
         tvComResponse14 = findViewById(R.id.tvComic14)
         tvComResponse15 = findViewById(R.id.tvComic15)
         tvComResponse16 = findViewById(R.id.tvComic16)
+        tvComResponseAttribution = findViewById(R.id.tvAttribution)
 
         // ImageView
         ivComResponse = findViewById(R.id.ivComic1)
@@ -316,16 +319,12 @@ class ComicsActivity : AppCompatActivity(), View.OnClickListener {
                 val intentBackComic = Intent(this@ComicsActivity, MainActivity::class.java)
                 startActivity(intentBackComic)
             }
-            R.id.cvComic3 -> {
-                val intentCardHandbook = Intent(this@ComicsActivity, Comic1::class.java)
-                startActivity(intentCardHandbook)
-            }
-            R.id.cvComic12 -> {
-                val intentCardGun = Intent(this@ComicsActivity, Comic2::class.java)
-                startActivity(intentCardGun)
+            R.id.cvComic2 -> {
+                val intentCardSpider = Intent(this@ComicsActivity, Comic1::class.java)
+                startActivity(intentCardSpider)
             }
             R.id.cvComic14 -> {
-                val intentCardXmen = Intent(this@ComicsActivity, Comic3::class.java)
+                val intentCardXmen = Intent(this@ComicsActivity, Comic2::class.java)
                 startActivity(intentCardXmen)
             }
         }
@@ -353,6 +352,7 @@ class ComicsActivity : AppCompatActivity(), View.OnClickListener {
                     tvComResponse14.text = response.body()!!.data.results[17].title
                     tvComResponse15.text = response.body()!!.data.results[18].title
                     tvComResponse16.text = response.body()!!.data.results[19].title
+                    tvComResponseAttribution.text = response.body()!!.attributionText
                 }
             }
 

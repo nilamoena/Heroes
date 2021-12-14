@@ -54,6 +54,7 @@ class EventsActivity : AppCompatActivity(), View.OnClickListener  {
     lateinit var tvEvResponse18 : TextView
     lateinit var tvEvResponse19 : TextView
     lateinit var tvEvResponse20 : TextView
+    lateinit var tvEvResponseAttribution : TextView
 
     // Inisialisasi ImageView
     lateinit var ivEvResponse : ImageView
@@ -142,6 +143,7 @@ class EventsActivity : AppCompatActivity(), View.OnClickListener  {
         tvEvResponse18 = findViewById(R.id.tvEvent18)
         tvEvResponse19 = findViewById(R.id.tvEvent19)
         tvEvResponse20 = findViewById(R.id.tvEvent20)
+        tvEvResponseAttribution = findViewById(R.id.tvAttribution)
 
         // ImageView
         ivEvResponse = findViewById(R.id.ivEvent1)
@@ -332,6 +334,7 @@ class EventsActivity : AppCompatActivity(), View.OnClickListener  {
                     tvEvResponse18.text = response.body()!!.data.results[17].title
                     tvEvResponse19.text = response.body()!!.data.results[18].title
                     tvEvResponse20.text = response.body()!!.data.results[19].title
+                    tvEvResponseAttribution.text = response.body()!!.attributionText
                 }
             }
 

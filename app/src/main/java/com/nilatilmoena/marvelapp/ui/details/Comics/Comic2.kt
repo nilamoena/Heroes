@@ -24,7 +24,7 @@ class Comic2 : AppCompatActivity(), View.OnClickListener {
     private var BASE_URL = "https://gateway.marvel.com/"
 
     lateinit var ivComResponseDet2 : ImageView
-    private val comImgDet2 = "https://i.annihil.us/u/prod/marvel/i/mg/c/60/4bc69f11baf75/portrait_incredible.jpg"
+    private val comImgDet2 = "https://i.annihil.us/u/prod/marvel/i/mg/9/d0/58b5cfb6d5239/portrait_incredible.jpg"
     lateinit var tvComResponseComName2 : TextView
     lateinit var tvComResponseComDesc2 : TextView
     lateinit var tvComResponseAttribution : TextView
@@ -73,8 +73,8 @@ class Comic2 : AppCompatActivity(), View.OnClickListener {
         call.enqueue(object: Callback<Comics> {
             override fun onResponse(call: Call<Comics>, response: Response<Comics>) {
                 if (response.body() != null) {
-                    tvComResponseComName2.text = response.body()!!.data.results[14].title
-                    tvComResponseComDesc2.text = response.body()!!.data.results[14].description
+                    tvComResponseComName2.text = response.body()!!.data.results[17].title
+                    tvComResponseComDesc2.text = response.body()!!.data.results[17].description
                     tvComResponseAttribution.text = response.body()!!.attributionText
                 }
             }

@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var cvIntentComic : CardView
     private lateinit var cvIntentEvent : CardView
     private lateinit var cvIntentSeries : CardView
+    private lateinit var cvIntentVideos : CardView
+    private lateinit var cvIntentInfo : CardView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,6 +30,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         cvIntentSeries = findViewById(R.id.cvSeries)
         cvIntentSeries.setOnClickListener(this)
+
+        cvIntentVideos = findViewById(R.id.cvVideo)
+        cvIntentVideos.setOnClickListener(this)
+
+        cvIntentInfo = findViewById(R.id.cvInfo)
+        cvIntentInfo.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
@@ -46,6 +54,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.cvSeries -> {
                 val intentSeries = Intent(this@MainActivity, SeriesActivity::class.java)
+                startActivity(intentSeries)
+            }
+            R.id.cvVideo -> {
+                val intentSeries = Intent(this@MainActivity, VideosActivity::class.java)
+                startActivity(intentSeries)
+            }
+            R.id.cvInfo -> {
+                val intentSeries = Intent(this@MainActivity, InfoActivity::class.java)
                 startActivity(intentSeries)
             }
         }

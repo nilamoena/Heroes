@@ -564,6 +564,7 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:gravity="center"
                 android:textSize="14sp"
                 android:textColor="@color/black"
                 android:text="@string/attribution"

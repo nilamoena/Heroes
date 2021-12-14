@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MarvelApp">
         <activity
+            android:name=".ui.InfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.VideosActivity"
+            android:exported="true" />
+        <activity
             android:name=".ui.details.Series.Series4"
             android:exported="true" />
         <activity

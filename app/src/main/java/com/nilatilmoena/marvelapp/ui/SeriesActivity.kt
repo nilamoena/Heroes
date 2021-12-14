@@ -55,6 +55,7 @@ class SeriesActivity : AppCompatActivity(), View.OnClickListener {
     lateinit var tvSerResponse9 : TextView
     lateinit var tvSerResponse10 : TextView
     lateinit var tvSerResponse11 : TextView
+    lateinit var tvSerResponseAttribution : TextView
 
     // Inisialisasi ImageView
     lateinit var ivSerResponse : ImageView
@@ -148,6 +149,7 @@ class SeriesActivity : AppCompatActivity(), View.OnClickListener {
         tvSerResponse9 = findViewById(R.id.tvSerie9)
         tvSerResponse10 = findViewById(R.id.tvSerie10)
         tvSerResponse11 = findViewById(R.id.tvSerie11)
+        tvSerResponseAttribution = findViewById(R.id.tvAttribution)
 
         // ImageView
         ivSerResponse = findViewById(R.id.ivSerie1)
@@ -271,6 +273,7 @@ class SeriesActivity : AppCompatActivity(), View.OnClickListener {
                     tvSerResponse9.text = response.body()!!.data.results[15].title
                     tvSerResponse10.text = response.body()!!.data.results[16].title
                     tvSerResponse11.text = response.body()!!.data.results[17].title
+                    tvSerResponseAttribution.text = response.body()!!.attributionText
                 }
             }
 
