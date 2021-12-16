@@ -13,6 +13,51 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MarvelApp">
         <activity
+            android:name=".ui.details.Events.Event20"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event19"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event18"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event17"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event16"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event15"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event14"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event13"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event12"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event11"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event10"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event9"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event8"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event7"
+            android:exported="true" />
+        <activity
+            android:name=".ui.details.Events.Event6"
+            android:exported="true" />
+        <activity
             android:name=".ui.InfoActivity"
             android:exported="true" />
         <activity
@@ -44,9 +89,6 @@
             android:exported="true" />
         <activity
             android:name=".ui.details.Events.Event1"
-            android:exported="true" />
-        <activity
-            android:name=".ui.details.Comics.Comic3"
             android:exported="true" />
         <activity
             android:name=".ui.details.Comics.Comic2"

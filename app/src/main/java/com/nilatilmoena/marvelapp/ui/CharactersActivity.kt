@@ -392,4 +392,6 @@ class CharactersActivity : AppCompatActivity(), View.OnClickListener {
 
         })
     }
+
+
 }

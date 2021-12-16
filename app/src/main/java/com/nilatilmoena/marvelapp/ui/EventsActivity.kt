@@ -32,6 +32,21 @@ class EventsActivity : AppCompatActivity(), View.OnClickListener  {
     private lateinit var cardUlt : CardView
     private lateinit var cardX : CardView
     private lateinit var cardDiff : CardView
+    private lateinit var cardAnni : CardView
+    private lateinit var cardCon : CardView
+    private lateinit var cardWars : CardView
+    private lateinit var cardAttacks : CardView
+    private lateinit var cardDisa : CardView
+    private lateinit var cardNow : CardView
+    private lateinit var cardVs : CardView
+    private lateinit var cardAxis : CardView
+    private lateinit var cardThor : CardView
+    private lateinit var cardChaos : CardView
+    private lateinit var cardCivil : CardView
+    private lateinit var cardCivil2 : CardView
+    private lateinit var cardCrossing : CardView
+    private lateinit var cardDark : CardView
+    private lateinit var cardDays : CardView
 
     // Inisialisasi TextView
     lateinit var tvEvResponse : TextView
@@ -121,6 +136,51 @@ class EventsActivity : AppCompatActivity(), View.OnClickListener  {
 
         cardDiff = findViewById(R.id.cvEvent5)
         cardDiff.setOnClickListener(this)
+
+        cardAnni = findViewById(R.id.cvEvent6)
+        cardAnni.setOnClickListener(this)
+
+        cardCon = findViewById(R.id.cvEvent7)
+        cardCon.setOnClickListener(this)
+
+        cardWars = findViewById(R.id.cvEvent8)
+        cardWars.setOnClickListener(this)
+
+        cardAttacks = findViewById(R.id.cvEvent9)
+        cardAttacks.setOnClickListener(this)
+
+        cardDisa = findViewById(R.id.cvEvent10)
+        cardDisa.setOnClickListener(this)
+
+        cardNow = findViewById(R.id.cvEvent11)
+        cardNow.setOnClickListener(this)
+
+        cardVs = findViewById(R.id.cvEvent12)
+        cardVs.setOnClickListener(this)
+
+        cardAxis = findViewById(R.id.cvEvent13)
+        cardAxis.setOnClickListener(this)
+
+        cardThor = findViewById(R.id.cvEvent14)
+        cardThor.setOnClickListener(this)
+
+        cardChaos = findViewById(R.id.cvEvent15)
+        cardChaos.setOnClickListener(this)
+
+        cardCivil = findViewById(R.id.cvEvent16)
+        cardCivil.setOnClickListener(this)
+
+        cardCivil2 = findViewById(R.id.cvEvent17)
+        cardCivil2.setOnClickListener(this)
+
+        cardCrossing = findViewById(R.id.cvEvent18)
+        cardCrossing.setOnClickListener(this)
+
+        cardDark = findViewById(R.id.cvEvent19)
+        cardDark.setOnClickListener(this)
+
+        cardDays = findViewById(R.id.cvEvent20)
+        cardDays.setOnClickListener(this)
 
         // TextView
         tvEvResponse = findViewById(R.id.tvEvent1)
@@ -304,6 +364,66 @@ class EventsActivity : AppCompatActivity(), View.OnClickListener  {
             R.id.cvEvent5 -> {
                 val intentCardDiff = Intent(this@EventsActivity, Event5::class.java)
                 startActivity(intentCardDiff)
+            }
+            R.id.cvEvent6 -> {
+                val intentCardAnni = Intent(this@EventsActivity, Event6::class.java)
+                startActivity(intentCardAnni)
+            }
+            R.id.cvEvent7 -> {
+                val intentCardCon = Intent(this@EventsActivity, Event7::class.java)
+                startActivity(intentCardCon)
+            }
+            R.id.cvEvent8 -> {
+                val intentCardWars = Intent(this@EventsActivity, Event8::class.java)
+                startActivity(intentCardWars)
+            }
+            R.id.cvEvent9 -> {
+                val intentCardAttacks = Intent(this@EventsActivity, Event9::class.java)
+                startActivity(intentCardAttacks)
+            }
+            R.id.cvEvent10 -> {
+                val intentCardDisa = Intent(this@EventsActivity, Event10::class.java)
+                startActivity(intentCardDisa)
+            }
+            R.id.cvEvent11 -> {
+                val intentCardNow = Intent(this@EventsActivity, Event11::class.java)
+                startActivity(intentCardNow)
+            }
+            R.id.cvEvent12 -> {
+                val intentCardVs = Intent(this@EventsActivity, Event12::class.java)
+                startActivity(intentCardVs)
+            }
+            R.id.cvEvent13 -> {
+                val intentCardAxis = Intent(this@EventsActivity, Event13::class.java)
+                startActivity(intentCardAxis)
+            }
+            R.id.cvEvent14 -> {
+                val intentCardThor = Intent(this@EventsActivity, Event14::class.java)
+                startActivity(intentCardThor)
+            }
+            R.id.cvEvent15 -> {
+                val intentCardChaos = Intent(this@EventsActivity, Event15::class.java)
+                startActivity(intentCardChaos)
+            }
+            R.id.cvEvent16 -> {
+                val intentCardCivil = Intent(this@EventsActivity, Event16::class.java)
+                startActivity(intentCardCivil)
+            }
+            R.id.cvEvent17 -> {
+                val intentCardCivil2 = Intent(this@EventsActivity, Event17::class.java)
+                startActivity(intentCardCivil2)
+            }
+            R.id.cvEvent18 -> {
+                val intentCardCrossing = Intent(this@EventsActivity, Event18::class.java)
+                startActivity(intentCardCrossing)
+            }
+            R.id.cvEvent19 -> {
+                val intentCardDark = Intent(this@EventsActivity, Event19::class.java)
+                startActivity(intentCardDark)
+            }
+            R.id.cvEvent20 -> {
+                val intentCardDays = Intent(this@EventsActivity, Event20::class.java)
+                startActivity(intentCardDays)
             }
         }
     }
