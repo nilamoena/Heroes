@@ -1,0 +1,672 @@
+1
+00:00:05,000 --> 00:00:07,000
+Assalamualaikum warahmatullahi wabarakatuh
+
+2
+00:00:08,263 --> 00:00:10,263
+Waalaikumsalam warahmatullahi wabarakatuh
+
+3
+00:00:11,788 --> 00:00:15,767
+Oke jadi udah ada bersama saya Bobby, halo Bobby
+
+4
+00:00:16,409 --> 00:00:17,400
+Halo Nila
+
+5
+00:00:18,179 --> 00:00:24,167
+Oke, perkenalkan dulu nama saya Nilatil Moena, saya developer dari aplikasi yang bakal dijelasin nanti
+
+6
+00:00:24,167 --> 00:00:30,667
+nah ini merupakan sebuah aplikasi sejenis entertainment yang bakal display informasi terkait Marvel
+
+7
+00:00:30,667 --> 00:00:34,667
+Sebelumnya juga saya mau izin untuk record dari awal sampai akhir ya
+
+8
+00:00:36,426 --> 00:00:37,400
+Siap
+
+9
+00:00:38,768 --> 00:00:43,300
+Jadi saya mau jelasin dulu kita bakal ngapain aja selama meeting ini
+
+10
+00:00:43,300 --> 00:00:51,767
+Nanti kita akan tanya jawab ya di sesi interview bakal ada beberapa pertanyaan yang akan saya tanyakan berkaitan dengan aplikasi dan seputar Marvel
+
+11
+00:00:52,457 --> 00:00:57,434
+Kemudian nanti saya juga akan memberi link aplikasi yang mengarahkan ke play store
+
+12
+00:00:57,434 --> 00:01:01,000
+yang nanti bisa Bobby untuk install dan coba
+
+13
+00:01:01,000 --> 00:01:07,000
+bagaimana feelnya dari sisi experience seperti apa, dan masukkan-masukkan dari Bobby, saran-saran atau input gitu
+
+14
+00:01:09,165 --> 00:01:16,134
+Nah kemudian diakhir saya bakal nanya terkait level kepuasaan dari segi kemudahan menggunakan aplikasinya
+
+15
+00:01:17,095 --> 00:01:25,067
+Trus saya mau disclaimer juga, bahwa disini ngga bakal ada jawaban atau pernyataan yang diutarakan oleh Bobby itu bernilai benar atau salah
+
+16
+00:01:25,067 --> 00:01:30,034
+jadi malah bakalan jadi feedback bagi saya selaku developer
+
+17
+00:01:30,034 --> 00:01:40,067
+jadi ngga masalah dan jangan ragu buat ngutarain pernyataan atau pendapat, bebas aja misal ada yang dirasa kurang bagus atau sebagainya dari aplikasi yang bakal dicoba nanti, gitu
+
+18
+00:01:40,992 --> 00:01:44,034
+Mungkin penjelasannya, apakah sudah cukup jelas, mungkin?
+
+19
+00:01:45,779 --> 00:01:46,767
+Sudah Nil, sudah jelas Nil
+
+20
+00:01:47,859 --> 00:01:53,034
+Oke, untuk lebih formal lagi mungkin kita mau mulai dulu dari perkenalan kali ya
+
+21
+00:01:53,034 --> 00:01:59,034
+silahkan Bobby bisa sebutkan nama lengkap, umur dan lagi sibuk apa mungkin, sama domisili sekarang lagi dimana
+
+22
+00:02:00,799 --> 00:02:03,767
+Oke, nama lengkap saya Mohammad Mahbub 
+
+23
+00:02:04,401 --> 00:02:08,634
+dan sekarang kesibukkan saya ini lagi sibuk magang
+
+24
+00:02:09,311 --> 00:02:12,800
+magang sambil ngegarap skripsi, ya jadi itu aja sih
+
+25
+00:02:13,175 --> 00:02:16,167
+trus sekarang domisili nya itu lagi di Bogor
+
+26
+00:02:17,396 --> 00:02:18,367
+Umur?
+
+27
+00:02:19,606 --> 00:02:20,600
+Umur 21 tahun
+
+28
+00:02:22,084 --> 00:02:26,034
+Oke, mungkin perkenalannya singkat dan cukup segitu dulu ya
+
+29
+00:02:26,715 --> 00:02:30,700
+Trus kita bakalan masuk ke pertanyaan ni
+
+30
+00:02:30,869 --> 00:02:39,034
+Selama Bobby kerja sambil kuliah gitu, kira-kira apa cukup sering buat nyempetin refreshing ditengah padatnya aktivitas sehari-hari ga?
+
+31
+00:02:40,631 --> 00:02:43,338
+Pasti dong, pasti sempat refreshing
+
+32
+00:02:44,043 --> 00:02:50,034
+Jadi, ya kalau misalkan udah jenuh atau misalkan udah cape , itu cari refreshing sendiri
+
+33
+00:02:50,034 --> 00:02:57,034
+kayak misalkan contohnya buka tv, setel-setel yang lain, atau cuman buka sekedar hp, scrolling-scrolling Instagram
+
+34
+00:02:58,416 --> 00:02:59,900
+ya gitu sih paling
+
+35
+00:03:00,359 --> 00:03:04,334
+Kira- kira seberapa penting sih buat nyempetin hal-hal yang Bobby sebutin tadi gitu?
+
+36
+00:03:05,343 --> 00:03:12,034
+Penting banget sih, penting banget, biar kita nya itu refresh lagi, karena otak itu kan ngga bisa dipake paksa terus menerus kan ya
+
+37
+00:03:12,034 --> 00:03:18,034
+kalo kita udah jenuh, udah stress ya ngga efektif, jadi untuk efektif kita rehat sebentar
+
+38
+00:03:18,861 --> 00:03:22,834
+cari refreshing biar seger lagi baru bisa lanjut lagi, biar efektif lagi kerjanya
+
+39
+00:03:23,834 --> 00:03:29,034
+Oke, kira-kira kan tadi ngejelasin ya paling buka-buka hp atau ngga televisi
+
+40
+00:03:29,034 --> 00:03:35,034
+kira-kira apalagi sih secara spesfik gitu ya biasanya yang dilakuin buat ngehilangin jenuh tadi gitu?
+
+41
+00:03:36,513 --> 00:03:39,034
+ngilangin jenuh tadi, secara spesifik nya
+
+42
+00:03:39,344 --> 00:03:46,034
+ya kayak tadi, kayak misalkan scrolling-scrolling, kayak cari entertainment, hiburan, atau baca-baca berita
+
+43
+00:03:46,375 --> 00:03:50,167
+atau sekedar ngobrol-ngobrol sama temen, ya itu sih 
+
+44
+00:03:50,456 --> 00:03:53,434
+kayak gitu-gitu aja sih Nil, paling Nil, refreshingnya
+
+45
+00:03:54,001 --> 00:03:57,034
+Kalau untuk nonton film gimana? Suka ga?
+
+46
+00:03:57,035 --> 00:04:04,034
+Kalau untuk nonton film, yang panjang-panjang itu biasanya after office hours ya 
+
+47
+00:04:04,765 --> 00:04:09,034
+Jadi kalau misalkan malem atau sore karena kebetulan magangnya ini kan wfh
+
+48
+00:04:09,542 --> 00:04:14,034
+jadi kalau misalkan selesai magang, selesai jam 5, kadang-kadang nyicil nonton film
+
+49
+00:04:14,407 --> 00:04:15,400
+atau kadang malemnya
+
+50
+00:04:15,400 --> 00:04:24,034
+Tapi kalau misalkan film-film yang ringan, yang kayak 20-30 menit, kadang-kadang dipake juga pas buat refreshing sela-sela kerja
+
+51
+00:04:25,126 --> 00:04:30,034
+Kira-kira film yang tertarik itu kayak apa sih? Kalau Marvel gitu tertarik ngga?
+
+52
+00:04:31,032 --> 00:04:34,034
+Kalau Marvel bisa dibilang tertarik 
+
+53
+00:04:34,708 --> 00:04:40,034
+Kalau ditanya tertariknya apa, Marvel juga termasuk dalam urutan paling tertarik 
+
+54
+00:04:40,565 --> 00:04:46,534
+trus tertarik lainnya paling suka yang kayak romance-romance gitu sih Nil
+
+55
+00:04:47,927 --> 00:04:53,034
+Biasanya ni kan kalo Marvel gitu tertarik ya, biasanya kan kayak kepo-kepo dong tentang informasi Marvel gitu
+
+56
+00:04:53,585 --> 00:04:59,034
+biasanya kalo nyari info Marvel tu dimana? di sosmed apa atau dimana? atau lewat Google?
+
+57
+00:05:00,190 --> 00:05:08,034
+Aku kalau nyari tentang Marvel itu hampir jarang nyari di sosial media, itu aku biasa cari-cari di internet
+
+58
+00:05:08,034 --> 00:05:13,034
+kayak di forum, kayak penjelasan tentang endingnya atau penjelasan-penjelasan yang ngga aku ngerti
+
+59
+00:05:13,034 --> 00:05:18,034
+atau up coming up coming scene nya aku cari-cari di internet sih  
+
+60
+00:05:18,857 --> 00:05:19,834
+gitu sih Nil
+
+61
+00:05:21,140 --> 00:05:27,134
+Mungkin karena disini tugasnya lagi aplikasi ya, jadi saya mengaplikasikan hal itu
+
+62
+00:05:28,540 --> 00:05:30,540
+jadi nama aplikasinya itu Heroes
+
+63
+00:05:30,854 --> 00:05:39,034
+Heroes adalah aplikasi dimana pengguna dapat mengakses informasi tentang karakter Marvel, baik pahlawannya, atau villainnya, dan informasi lain nya juga
+
+64
+00:05:40,190 --> 00:05:44,034
+Seebenernya tanya jawabnya itu udah cukup sampai situ aja ya Bobby
+
+65
+00:05:44,661 --> 00:05:55,034
+Selanjutnya aku bakal ngirim link aplikasi nya ni yang bakal ngarahin ke play store buat Bobby untuk nginstall dan coba-coba aplikasinya, bentar ya di kirim dulu
+
+66
+00:05:55,034 --> 00:05:56,034
+Boleh-boleh Nila
+
+67
+00:06:02,570 --> 00:06:09,034
+Ada di room chat, trus juga mau minta tolong share screen dari awal penginstallan sampai nanti akhir
+
+68
+00:06:09,795 --> 00:06:10,767
+Okeh
+
+69
+00:06:12,505 --> 00:06:14,505
+Ini di hp bisa share screen kan Nil?
+
+70
+00:06:14,505 --> 00:06:15,500
+Bisa
+
+71
+00:06:16,175 --> 00:06:18,175
+Ohiya udah di allow belom ya, bentar
+
+72
+00:06:21,649 --> 00:06:24,634
+Coba, share screen, belom di allow
+
+73
+00:06:25,394 --> 00:06:26,367
+Udah, sekarang udah
+
+74
+00:06:28,974 --> 00:06:30,974
+Oke share screen, oh ini ya
+
+75
+00:06:45,359 --> 00:06:47,359
+Nil layar nya udah keliatan belom ya Nil?
+
+76
+00:06:47,359 --> 00:06:48,334
+Udah-udah
+
+77
+00:06:49,278 --> 00:06:51,278
+Oke kita ke Zoom
+
+78
+00:06:52,116 --> 00:06:53,100
+Mana chat?
+
+79
+00:06:54,001 --> 00:06:56,001
+Ini dia chat
+
+80
+00:07:02,489 --> 00:07:04,489
+Heroes wih mantap
+
+81
+00:07:23,650 --> 00:07:26,034
+Maaf ya Nil agak-agak bising gitu ya Nil
+
+82
+00:07:26,034 --> 00:07:28,034
+Oh ngga papa ngga papa, gabegitu kedengeran ko
+
+83
+00:07:50,344 --> 00:07:52,344
+Ini build nya pake apa Nil? Flutter Nil?
+
+84
+00:07:53,279 --> 00:07:55,279
+Kotlin, Android Studio
+
+85
+00:07:55,552 --> 00:07:57,034
+Oh wii mantap
+
+86
+00:07:58,510 --> 00:07:59,034
+Open
+
+87
+00:08:02,218 --> 00:08:04,218
+Oke udah nih Nil
+
+88
+00:08:04,218 --> 00:08:08,200
+Nah ini kan ada 6 kategori ya, ini tuh sama-sama buat display informasi gitu 
+
+89
+00:08:09,124 --> 00:08:16,034
+Nah pertama bakalan ngasi Bobby untuk ngelakuin beberapa tugas atau task, yang pertama itu buat ngejelajah bagian Characters dulu
+
+90
+00:08:17,752 --> 00:08:18,734
+Oke Characters
+
+91
+00:08:19,907 --> 00:08:20,900
+Trus Nil?
+
+92
+00:08:21,497 --> 00:08:23,497
+Bisa dicoba-coba aja gitu di klik-klik
+
+93
+00:08:25,384 --> 00:08:27,384
+Okay contoh nya ni ya
+
+94
+00:08:31,487 --> 00:08:33,034
+Yang bawahnya coba
+
+95
+00:08:41,326 --> 00:08:45,034
+Kira-kira dari tadi Bobby ngejelajah Characters ni apa ada kendala ngga?
+
+96
+00:08:46,748 --> 00:08:51,734
+Jelajah dari kendala ngga ada, oke, sejauh ini oke
+
+97
+00:08:52,562 --> 00:08:57,534
+Kalo informasi yang ditampilkan udah cukup jelas atau dirasa kurang atau gimana?
+
+98
+00:08:58,125 --> 00:09:09,100
+Informasinya, kurang sih menurut gue ya Nil, soalnya kayak kurang, kurang elaborasi, kurang menarik, kayak ini ringkas banget kan ya
+
+99
+00:09:11,346 --> 00:09:16,334
+Kalo dari segi tampilan, kan tadi dari segi informasi nih, kalo dari segi tampilan gimana?
+
+100
+00:09:17,170 --> 00:09:29,167
+Dari segi tampilan, oke, udah bisa di akses dengan mudah juga, tau ini ada karakter-karakter nya, nama-namanya, kalau liat detail tinggal klik aja
+
+101
+00:09:29,682 --> 00:09:31,682
+Udah-udah jelas, udah oke, udah bagus
+
+102
+00:09:33,540 --> 00:09:38,500
+Nah, mungkin kalo Characters udah bisa beralih ke sekarang ke Comics yang sebelahnya 
+
+103
+00:09:39,618 --> 00:09:40,600
+Oke kita ke Comics
+
+104
+00:09:42,125 --> 00:09:44,100
+Bisa dicoba-coba aja dulu
+
+105
+00:09:45,026 --> 00:09:48,000
+Coba-coba Comics oke ni Marvel Previews
+
+106
+00:09:52,973 --> 00:09:54,973
+Jadi ini Comics ini apa Nil?
+
+107
+00:09:56,076 --> 00:09:59,034
+Jadi ini comic-comic yang udah release gitu loh
+
+108
+00:09:59,034 --> 00:10:01,034
+ditampilkan disini
+
+109
+00:10:01,397 --> 00:10:03,397
+Jadi ini info-info komik-komik gitu Nil?
+
+110
+00:10:03,397 --> 00:10:04,034
+Iya
+
+111
+00:10:04,314 --> 00:10:06,314
+Nah kira-kira ada kendala ngga?
+
+112
+00:10:06,314 --> 00:10:09,034
+Sama infonya yang ditampilkan sebenernya agak kurang ya?
+
+113
+00:10:09,816 --> 00:10:10,800
+Apa gimana?
+
+114
+00:10:11,749 --> 00:10:17,734
+Iya, mungkin bisa kasih tau kayak nama, nama penerbitnya siapa, author nya siapa
+
+115
+00:10:18,000 --> 00:10:25,034
+trus, paling kayak gitu aja ya, atau mungkin tambah-tambahan kutipan favorite quote gitu, gapenting juga sih itu kayaknya
+
+116
+00:10:26,349 --> 00:10:34,034
+paling itu doang sih kayak general information, penerbit, author, trus description mungkin secara ringkas
+
+117
+00:10:36,304 --> 00:10:38,304
+Mungkin langsung beralih ke Events Bob
+
+118
+00:10:40,174 --> 00:10:42,174
+Oke kita ke Events
+
+119
+00:10:43,570 --> 00:10:44,567
+Oke ini apa ni
+
+120
+00:10:49,011 --> 00:10:50,000
+Nah udah nge load
+
+121
+00:10:50,000 --> 00:10:51,000
+Oh oke
+
+122
+00:10:52,663 --> 00:10:53,634
+Coba kita klik
+
+123
+00:10:55,415 --> 00:10:57,415
+Nah mungkin bisa nyoba detail yang lain juga
+
+124
+00:11:00,468 --> 00:11:03,467
+Coba detail yang lain kita random
+
+125
+00:11:11,156 --> 00:11:21,134
+Kira-kira, pertanyaannya sama aja sih mungkin kendalanya apa, informasi yang ditampilkan apa sudah cukup jelas dan tampilannya gimana ya? tampilan sih mungkin sama aja kayak yang tadi sih ya
+
+126
+00:11:22,636 --> 00:11:29,634
+Iya betul, tampilannya sama kayak sebelum-sebelumnya, kendalanya ya tadi kayak masih unclear gitu kayak informasi nya belum jelas
+
+127
+00:11:29,853 --> 00:11:31,853
+Events itu apa
+
+128
+00:11:36,343 --> 00:11:38,343
+kayak gatau loh Events ini apa
+
+129
+00:11:40,454 --> 00:11:51,434
+kalau tentang apanya mungkin udah kejelas di descriptionnya ya, tentang apanya udah jelas, tapi ya itu sih, kayak ini masih unclear gitu, kayak informasinya mungkin bisa diperjelas kembali
+
+130
+00:11:52,364 --> 00:11:57,334
+Okey, nah untuk abis itu langsung ke Series Bob, yang terakhir
+
+131
+00:11:58,455 --> 00:11:59,434
+Apa nih Series?
+
+132
+00:11:59,777 --> 00:12:00,767
+Iya
+
+133
+00:12:01,266 --> 00:12:06,234
+Series ini film Series gitu ya? kayak yang sekarang Loki atau ya oke
+
+134
+00:12:10,058 --> 00:12:18,034
+Oh bentar, berarti ini cuman yang animation nya doang atau yang sama 
+
+135
+00:12:22,485 --> 00:12:24,434
+Nah kira-kira kalau ini kendalanya gimana?
+
+136
+00:12:26,109 --> 00:12:35,100
+Kendalanya? dari Series udah tau sih udah bisa kejelas kalo ini Series
+
+137
+00:12:36,001 --> 00:12:51,000
+informasinya dapet trus ini juga tau, dia judulnya apa, tahun release nya dari kapan sampai kapan, informasi sekilasnya oke, semua udah oke sih, udah lumayan si Nil
+
+138
+00:12:52,447 --> 00:12:56,434
+Mungkin bisa beralih lagi ke kategori Video, nah kategori Video ini
+
+139
+00:12:57,105 --> 00:13:04,100
+dia itu nge link jadi web view gitu diambil dari website YouTube nya Marvel Entertainment gitu
+
+140
+00:13:04,759 --> 00:13:06,759
+Oke oke I got it
+
+141
+00:13:07,794 --> 00:13:16,767
+Mungkin kalau informasi sama tampilan karena kita ngga bisa ubah kali ya, jadi ngga perlu ditanyakan, nah kira-kira kalau kendala gitu gimana
+
+142
+00:13:17,749 --> 00:13:22,734
+Kalau loading lama balik lagi sih Nil ke bandwidthnya internet masing-masing 
+
+143
+00:13:24,808 --> 00:13:28,800
+Ngga ada masalah sih karena ini kan langsung nge refer langsung ke YouTube nya kan
+
+144
+00:13:31,930 --> 00:13:42,900
+Abis itu yang terakhir nih yang Information, kalo tadi dia kan nge link ke YouTube nya, sekarang kalau Information itu nge link ke marvel.com kayak website resmi nya mereka gitu
+
+145
+00:13:43,830 --> 00:13:47,800
+Oh I see I see, ohiya aku pernah ngakses ke web ini cuma lupa untuk apa
+
+146
+00:13:49,834 --> 00:13:51,834
+Jadi semua-muanya ada disini gitu sih
+
+147
+00:13:52,125 --> 00:13:55,100
+kalau misal dari yang tadi ditampilkan ada yang kurang 
+
+148
+00:13:56,014 --> 00:14:03,000
+karena dari mereka juga ada kebijakan kalau misal ada aplikasi untuk nge link kesini gitu
+
+149
+00:14:04,092 --> 00:14:06,092
+Oke baik-baik
+
+150
+00:14:08,018 --> 00:14:09,000
+Kalau kendalanya Bob?
+
+151
+00:14:14,939 --> 00:14:18,034
+karena ngga ada, karena aku ngga melihat suatu kendala sih Nil
+
+152
+00:14:18,854 --> 00:14:21,834
+ini kan me refer juga kan ya ke website nya si marvel.com
+
+153
+00:14:24,778 --> 00:14:28,767
+Mungkin udah kali ya, karena udah semua 6 kategori tadi
+
+154
+00:14:29,366 --> 00:14:32,334
+Bisa boleh di stop share screen nya juga
+
+155
+00:14:34,801 --> 00:14:36,801
+Dan kembali balik lagi
+
+156
+00:14:44,036 --> 00:14:51,034
+Karena udah semua ya task nya ya, jadi terakhir ini bakalan mau nanyain tentang dari sisi kemudahan aplikasi ni 
+
+157
+00:14:53,316 --> 00:14:56,300
+Kira-kira Bobby bakal ngasi angka berapa? dan alasannya kenapa?
+
+158
+00:14:58,120 --> 00:15:08,100
+Oke kalau skala kemudahan, aku bakal kasih nilai 10, karena itu mudah, mudah dipahami, mudah dipakai, jadi tanpa user guide pun bisa paham user tersebut
+
+159
+00:15:10,922 --> 00:15:17,900
+Kira-kira ada saran ngga Bobby, soalnya kayak harusnya tambahin fitur ini nih atau kira-kira ada yang kurang gimana gitu?
+
+160
+00:15:19,966 --> 00:15:20,934
+Saran yang pertama
+
+161
+00:15:22,945 --> 00:15:29,934
+untuk semuanya kayak pertama tadi lebih diperjelas lagi kayak informasi-informasi nya, kayak itu kan masih ringkas aja ya
+
+162
+00:15:38,171 --> 00:15:46,167
+Ini sebenernya saran aja sih kayak kalo dari yang karakter-karakter itu fotonya tu bisa dilihat secara 3D gitu loh
+
+163
+00:15:48,612 --> 00:15:52,600
+kayak bisa dilihat, kayak geser-geser 3D, kayak maps gitu lah
+
+164
+00:15:56,101 --> 00:16:03,100
+Oke bakal jadi masukkan buat kedepannya juga, mungkin cukup segitu aja kali ya sesi interview dan user testing kali ini
+
+165
+00:16:03,267 --> 00:16:09,234
+Makasih banyak buat Bobby udah nyempetin waktunya untuk jadi bagian dari testing kali ini 
+
+166
+00:16:10,299 --> 00:16:12,299
+Wassalamualaikum warahmatullahi wabarakatuh
+
+167
+00:16:13,471 --> 00:16:15,471
+Sukses dan sehat selalu Bobby
+
+168
+00:16:15,472 --> 00:16:19,467
+Ohiya mohon maaf juga ya kalau misalnya ada kesalahan dan kekurangan dari saya pribadi
+
